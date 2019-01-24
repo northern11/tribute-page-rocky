@@ -46,10 +46,9 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-/* end of CSS Reset *\
 	border-spacing: 0;
 }
-
+/* end of CSS Reset *\
 
 /*
 ====================================================
