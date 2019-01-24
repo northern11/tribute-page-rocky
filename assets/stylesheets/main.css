@@ -95,4 +95,6 @@ Grid
 .main {
   padding-left: 30px;
   padding-right: 30px;
+  margin: 0 auto;
+  width: 960px;
 }
