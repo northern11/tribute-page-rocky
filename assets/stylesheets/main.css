@@ -46,6 +46,58 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-/* end of CSS Reset *\
 	border-spacing: 0;
+}
+/* end of CSS Reset *\
+
+/*
+====================================================
+Basic Styling
+====================================================
+*/
+
+body {
+  background: #CBCDD9;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, p, ul {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+/* <strong>, <cite> and <em> were reset */
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+
+/*
+====================================================
+Grid
+====================================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  width: 960px;
 }
