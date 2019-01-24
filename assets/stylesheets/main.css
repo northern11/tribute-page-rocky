@@ -49,3 +49,24 @@ table {
 /* end of CSS Reset *\
 	border-spacing: 0;
 }
+
+
+/*
+====================================================
+Basic Styling
+====================================================
+*/
+
+body {
+  background: #CBCDD9;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* <strong>, <cite> and <em> were reset */
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
