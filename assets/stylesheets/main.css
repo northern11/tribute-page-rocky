@@ -101,3 +101,22 @@ Grid
   margin: 0 auto;
   width: 960px;
 }
+
+
+/*
+====================================================
+Images
+====================================================
+*/
+
+#img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
