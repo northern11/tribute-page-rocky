@@ -57,7 +57,7 @@ Basic Styling
 */
 
 body {
-  background: #CBCDD9;
+  background: #CBCDD9; /* grey */
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -72,6 +72,17 @@ h2 {
   font-size: 24px;
   line-height: 44px;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #A1C5DA; /* iceberg */
+  height: 100px;
+  border-radius: 10px;
+}
+
+
 
 /* <strong>, <cite> and <em> were reset */
 strong {
