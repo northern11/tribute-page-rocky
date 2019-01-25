@@ -73,12 +73,15 @@ h2 {
   line-height: 44px;
 }
 
-/* <strong>, <cite> and <em> were reset */
+/* <strong>, <b>, <cite> and <em> were reset */
 strong {
   font-weight: 400;
 }
 cite, em {
   font-style: italic;
+}
+b {
+  font-weight: bold;
 }
 
 /*
