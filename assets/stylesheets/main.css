@@ -73,17 +73,6 @@ h2 {
   line-height: 44px;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #A1C5DA; /* iceberg */
-  height: 100px;
-  border-radius: 10px;
-}
-
-
-
 /* <strong>, <cite> and <em> were reset */
 strong {
   font-weight: 400;
@@ -130,4 +119,25 @@ Images
   max-width: 100%;
   display: block;
   height: auto;
+  border-radius: 15px;
+}
+/*
+====================================================
+Header
+====================================================
+*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #A1C5DA; /* iceberg */
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#title-quote {
+  font-size: 18px;
 }
