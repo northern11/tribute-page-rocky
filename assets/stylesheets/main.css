@@ -57,7 +57,7 @@ Basic Styling
 */
 
 body {
-  background: #CBCDD9;
+  background: #CBCDD9; /* grey */
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -119,4 +119,25 @@ Images
   max-width: 100%;
   display: block;
   height: auto;
+  border-radius: 15px;
+}
+/*
+====================================================
+Header
+====================================================
+*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #A1C5DA; /* iceberg */
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#title-quote {
+  font-size: 18px;
 }
