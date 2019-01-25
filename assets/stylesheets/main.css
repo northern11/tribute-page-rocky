@@ -61,7 +61,7 @@ body {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, p, ul {
+h1, h2, p, ul, cite {
   margin-bottom: 22px;
 }
 h1 {
@@ -73,12 +73,15 @@ h2 {
   line-height: 44px;
 }
 
-/* <strong>, <cite> and <em> were reset */
+/* <strong>, <b>, <cite> and <em> were reset */
 strong {
   font-weight: 400;
 }
 cite, em {
   font-style: italic;
+}
+b {
+  font-weight: bold
 }
 
 /*
@@ -144,8 +147,44 @@ header {
   height: 150px;
   border-radius: 10px;
   padding: 20px;
+
 }
 
 #title-quote {
   font-size: 18px;
+}
+
+/*
+====================================================
+Tribute Content
+====================================================
+*/
+
+#tribute-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#tribute-info li {
+  margin-bottom: 1px;
+}
+
+/*
+====================================================
+Footer Content
+====================================================
+*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #A1C5DA; /* iceberg */
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
