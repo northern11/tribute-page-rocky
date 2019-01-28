@@ -118,7 +118,7 @@ Image Styling
   justify-content: center;
   flex-direction: column;
   background: white;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 #image {
@@ -161,19 +161,24 @@ Tribute Content
 */
 
 #tribute-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  border-radius: 15px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr;
+  border-radius: 0 0 15px 15px;
+  padding: 30px;
 }
 
 #tribute-info li {
   margin-bottom: 1px;
 }
 
-ul {
+#tribute-info ul {
   list-style-type: disc;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 /*
