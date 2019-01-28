@@ -172,6 +172,10 @@ Tribute Content
   margin-bottom: 1px;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 /*
 ====================================================
 Footer Content
