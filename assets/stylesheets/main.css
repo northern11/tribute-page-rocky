@@ -73,6 +73,10 @@ h2 {
   line-height: 44px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* <strong>, <b>, <cite> and <em> were reset */
 strong {
   font-weight: 400;
