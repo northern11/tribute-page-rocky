@@ -73,6 +73,10 @@ h2 {
   line-height: 44px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* <strong>, <b>, <cite> and <em> were reset */
 strong {
   font-weight: 400;
@@ -177,7 +181,7 @@ Tribute Content
   list-style-type: disc;
 }
 
-h3 {
+#tribute-info h3 {
   font-weight: bold;
 }
 
