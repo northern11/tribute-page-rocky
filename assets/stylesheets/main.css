@@ -149,7 +149,7 @@ header {
   justify-content: center;
   flex-direction: column;
   background: #A1C5DA; /* iceberg */
-  height: 150px;
+  height: auto;
   border-radius: 10px;
   padding: 20px;
 	width: 100vmin;
