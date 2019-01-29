@@ -174,7 +174,7 @@ Tribute Content
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr, 1fr, 1fr;
-  padding: 50px;
+	padding: 50px;
 	width: 100vmin;
 }
 
