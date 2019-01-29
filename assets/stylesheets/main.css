@@ -150,11 +150,16 @@ header {
   flex-direction: column;
   background: #A1C5DA; /* iceberg */
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: auto;
 =======
   height: 180px;
 >>>>>>> development
   border-radius: 10px;
+=======
+  height: auto;
+  border-radius: 15px;
+>>>>>>> development
   padding: 10px;
 	width: 100vmin;
 
