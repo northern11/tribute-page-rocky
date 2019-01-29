@@ -151,10 +151,8 @@ header {
   background: #A1C5DA; /* iceberg */
   height: auto;
   border-radius: 10px;
-=======
-  height: auto;
+  height: 180px;
   border-radius: 15px;
->>>>>>> development
   padding: 10px;
 	width: 100vmin;
 
