@@ -123,6 +123,7 @@ Image Styling
   flex-direction: column;
   background: white;
   border-radius: 15px 15px 0 0;
+	width: 100vmin;
 }
 
 #image {
@@ -151,11 +152,13 @@ header {
   height: 150px;
   border-radius: 10px;
   padding: 20px;
+	width: 100vmin;
 
 }
 
 #title-quote {
   font-size: 18px;
+	width: 75vmin;
 }
 
 /*
@@ -171,6 +174,7 @@ Tribute Content
   grid-template-rows: 1fr, 1fr, 1fr;
   border-radius: 0 0 15px 15px;
   padding: 30px;
+	width: 100vmin;
 }
 
 #tribute-info li {
@@ -179,6 +183,7 @@ Tribute Content
 
 #tribute-info ul {
   list-style-type: disc;
+	width: 75vmin;
 }
 
 #tribute-info h3 {
@@ -200,4 +205,9 @@ footer {
   height: 150px;
   border-radius: 10px;
   margin-bottom: 10px;
+	width: 100vmin;
+}
+
+footer cite {
+	width: 75vmin;
 }
